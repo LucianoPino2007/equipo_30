@@ -1,9 +1,9 @@
 *
 .h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
   text-align: center;
 }
 
 *{
-    background-color: rgb(209, 250, 113);
+  background-color: rgb(209, 250, 113);
+  font-family: monospace;
 }
