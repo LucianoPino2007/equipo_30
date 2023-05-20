@@ -1,52 +1,9 @@
-* {
-  font-family: monospace;
-  box-sizing: border-box; /* To make sure padding and margin behaves correctly */
-}
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6em;
-  background-color: #f4f4f4;
-  color: #333;
-  max-width: 500px;
-  margin: auto; /* Center horizontally */
-  padding: 20px;
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-input[type=email], 
-input[type=password] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0,.075);
-  outline: none;
-  border: 1px solid #ccc;
-  transition: border-color.3s ease;
-}
-
-input[type=email]:focus,  
-input[type=password]:focus{
-  border-color: #aaa;
-}
-
-button[type=submit]{
-  cursor: pointer;
-  width: 100%;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border:none;
-  border-radius: 5px;
-}
-
-button[type=submit]:hover {
-  opacity:.8;
-  background-color: rgb(209, 250, 113);
-  font-family: monospace;
+.badge {
+  font-size: 25px;
 }
